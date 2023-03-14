@@ -1,0 +1,86 @@
+.big-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.outline {
+  border: 1px solid black;
+  border-radius: 16px;
+  display: inline-block;
+}
+.moby-card p,
+.maude-card p,
+.wendel-card p,
+.mona-card p {
+  margin: 4px;
+  font-family: 'Print Clearly', sans-serif;
+  color: black;
+  font-size: 22px;
+}
+.catimage {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+}
+.placeholder {
+  width: 250px;
+}
+.image-div {
+  border: 4px solid #FDFD96;
+  margin: 10px;
+}
+.moby-card,
+.maude-card,
+.wendel-card,
+.mona-card {
+  border: 18px solid #FDFD96;
+  border-radius: 16px;
+}
+.moby-card {
+  background: linear-gradient(to bottom right, #72c2ec, #fbc396, #72c2ec);
+}
+.maude-card {
+  background: linear-gradient(to bottom right, #ffd1dc, #cdb7f6, #ffd1dc);
+}
+.wendel-card {
+  background: linear-gradient(to bottom right, #79d2b8, #ac8030, #79d2b8);
+}
+.mona-card {
+  background: linear-gradient(to bottom right, #d86557, #fbc396, #d86557);
+}
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 8px;
+  padding-right: 8px;
+  align-items: center;
+}
+.name {
+  display: inline-block;
+}
+.health {
+  display: inline-block;
+}
+.text {
+  padding-left: 8px;
+}
+.outline:hover {
+  margin-top: -4px;
+  box-shadow: 2px 8px 20px black;
+}
+
+.footer-box {
+  border: 4px solid #FDFD96;
+  margin: 4px;
+  text-align: center;
+  display: inline-block;
+  background-color: beige;
+}
+.fact {
+  margin: 2px;
+  width: 240px;
+}
+.footer-flex {
+  display: flex;
+  justify-content: center;
+}
