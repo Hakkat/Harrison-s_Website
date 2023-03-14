@@ -1,0 +1,233 @@
+body {
+  background-color: beige;
+  font-family: 'Print Clearly', sans-serif;
+}
+p {
+  font-size: 20px;
+  font-family: 'Print Bold', sans-serif;
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.header a {
+  text-decoration: none;
+  color: black;
+}
+.header p:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+.welcome {
+  position: relative;
+  text-align: center;
+  opacity: 0;
+  animation-name: welcomefade;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+}
+@keyframes welcomefade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.h2-container {
+  position: relative;
+  display: inline-block;
+  margin: 0;
+}
+.welcome-text {
+  margin: 0;
+}
+.sleepycat {
+  width: 50px;
+}
+.stringlight1,
+.stringlight2 {
+  width: 50px;
+}
+.stringlight1-container {
+  position: absolute;
+  left: 0px;
+  bottom: -30px;
+}
+.stringlight2-container {
+  position: absolute;
+  right: 0px;
+  bottom: -30px;
+}
+.image-of-me-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 300px;
+}
+.image-of-me {
+  width: 300px;
+  border-radius: 50px;
+  margin-left: 20px;
+  box-shadow: 0 0 5px 1px black;
+}
+.bio1-container {
+  display: flex;
+  align-items: center;
+  max-width: 450px;
+}
+.bio1 {
+  border: 1px solid black;
+  padding: 20px;
+  font-size: 30px;
+}
+.section1 {
+  opacity: 0;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+  animation-name: section1fade;
+  animation-duration: 2s;
+  animation-iteration-count: 1s;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+  animation-delay: 0.5s;
+}
+@keyframes section1fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.section2pre {
+  margin-top: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  opacity: 0;
+  padding: 10px;
+  background-color: #AAF0D1;
+  animation-name: section2fade;
+  animation-duration: 2s;
+  animation-iteration-count: 1s;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+  animation-delay: 1s;
+}
+.section2 {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: top;
+  width: 900px;
+}
+@keyframes section2fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.sec2head {
+  font-size: 26px;
+}
+.webdev-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 200px;
+  align-items: center;
+}
+.tr-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 200px;
+  align-items: center;
+}
+.hobbies-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 200px;
+  align-items: center;
+}
+.web-image,
+.writing-image,
+.hobbies-image {
+  width: 100px;
+  transition: width 0.5s;
+}
+.web-image:hover,
+.writing-image:hover,
+.hobbies-image:hover {
+  width: 140px;
+  cursor: pointer;
+}
+.title {
+  padding-top: 6px;
+}
+.web-image-container,
+.writing-image-container,
+.hobbies-image-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+.web-image-container .tooltip,
+.writing-image-container .tooltip,
+.hobbies-image-container .tooltip {
+  position: absolute;
+  background-color: black;
+  color: white;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 8px;
+  padding-right: 8px;
+  border-radius: 2px;
+  font-size: 12px;
+  top: -16px;
+  opacity: 0;
+  transition: opacity 0.15s;
+  pointer-events: none;
+  white-space: nowrap;
+}
+.web-image-container:hover .tooltip,
+.writing-image-container:hover .tooltip,
+.hobbies-image-container:hover .tooltip {
+  opacity: 1;
+}
+
+.section3 {
+  text-align: center;
+  opacity: 0;
+  animation-name: section3fade;
+  animation-duration: 2s;
+  animation-iteration-count: 1s;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+  animation-delay: 1.5s;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+@keyframes section3fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.footer {
+  background-color: #ffc2d1;
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}

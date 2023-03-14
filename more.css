@@ -1,0 +1,126 @@
+body {
+  background-color: beige;
+  font-family: 'Print Clearly', sans-serif;
+}
+p {
+  font-size: 20px;
+  font-family: 'Print Bold', sans-serif;
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.header a {
+  text-decoration: none;
+  color: black;
+}
+.header p:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+.section1 {
+  text-align: center;
+  padding: 4px;
+  background-color: #AAF0D1;
+  margin-bottom: 40px;
+}
+.soccer-container {
+  background-color: #d4f0f7;
+  padding: 30px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 30px;
+  opacity: 0;
+
+  animation-name: soccerfade;
+  animation-duration: 0.5s;
+  animation-iteration-count: 1;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+}
+@keyframes soccerfade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.soccer-container p,
+.longboard-container p,
+.cats-container p {
+  font-size: 28px;
+}
+.ball-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  align-items: center;
+}
+.soccer-ball,
+.longboard,
+.cat-icon {
+  width: 240px;
+}
+.longboarding-container {
+  background-color: #FDFD96;
+  padding: 30px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 30px;
+  opacity: 0;
+
+  animation-name: longboardfade;
+  animation-duration: 0.5s;
+  animation-iteration-count: 1;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+  animation-delay: 0.5s;
+}
+@keyframes longboardfade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.longboard-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  align-items: center;
+}
+.cats-container {
+  background-color: #bfd9be;
+  padding: 30px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 30px;
+  opacity: 0;
+
+  animation-name: longboardfade;
+  animation-duration: 0.5s;
+  animation-iteration-count: 1;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+  animation-delay: 1s;
+}
+@keyframes longboardfade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.cat-image-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  align-items: center;
+}
