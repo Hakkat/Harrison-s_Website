@@ -5,7 +5,7 @@
       <link href="https://fonts.cdnfonts.com/css/print-clearly" rel="stylesheet">
       <link rel="stylesheet" href="wd.css">
       <link rel="stylesheet" href="collapse.css">
-      <link rel="stylesheet" href="cards.css">
+      <link rel="stylesheet" href="cat-cards.css">
     </head>
     <body>
         <div class="header">
@@ -48,76 +48,138 @@
         </div>
 
 
+
         <!--Collapsible + Cards below-->
         <div class="wrap-collabsible">
           <input id="collapsible" class="toggle" type="checkbox">
           <label for="collapsible" class="lbl-toggle">Click to Display</label>
           <div class="collapsible-content">
             <div class="content-inner">
-              <div class="fb">
-                <div class="entire-card"> 
-         
-                 <div class="first-div"> 
-                   <img class="moby-photo" src="catimages/spacemoby.jpg">
-                 </div> 
-         
-                 <div class="second-div"> 
-                   <p class="moby-name"><strong>Moby</strong></p>
-                   <p style="margin-left: 4px;"><strong>Nature: </strong>Curious</p>
-                   <p style="margin-left: 4px;"><strong>Likes: </strong>People, Cats, Everything</p>
-                   <p style="margin-left: 4px;"><strong>Dislikes: </strong>N/A</p>
-                 </div> 
-         
-               </div> 
-         
-               <div class="entire-card-maude"> 
-         
-                 <div class="first-div"> 
-                   <img class="maude-photo" src="catimages/maudebruh.jpg">
-                 </div> 
-         
-                 <div class="second-div-maude"> 
-                   <p class="maude-name"><strong>Maude</strong></p>
-                   <p style="margin-left: 4px;"><strong>Nature: </strong>Assertive</p>
-                   <p style="margin-left: 4px;"><strong>Likes: </strong>Autonomy</p>
-                   <p style="margin-left: 4px;"><strong>Dislikes: </strong>Moby</p>
-                 </div> 
-         
-               </div> 
-         
-               <div class="entire-card-wendel"> 
-         
-                 <div class="first-div"> 
-                   <img class="maude-photo" src="catimages/wendel.JPG">
-                 </div> 
-         
-                 <div class="second-div-wendel"> 
-                   <p class="wendel-name"><strong>Wendel</strong></p>
-                   <p style="margin-left: 4px;"><strong>Nature: </strong>Cautious</p>
-                   <p style="margin-left: 4px;"><strong>Likes: </strong>Food</p>
-                   <p style="margin-left: 4px;"><strong>Dislikes: </strong>Conflict, Hunger</p>
-                 </div> 
-         
-               </div>
-               
-               
-         
-         
-         
-               <div class="entire-card-mona"> 
-         
-                 <div class="first-div"> 
-                   <img class="maude-photo" src="catimages/Mona.PNG">
-                 </div> 
-         
-                 <div class="second-div-mona"> 
-                   <p class="mona-name"><strong>Mona</strong></p>
-                   <p style="margin-left: 4px;"><strong>Nature: </strong>Confused</p>
-                   <p style="margin-left: 4px;"><strong>Likes: </strong>Hiding</p>
-                   <p style="margin-left: 4px;"><strong>Dislikes: </strong>Noise, Keys</p>
-                 </div> 
-         
-               </div>
+
+              <div class="big-container">
+
+                <!--Moby card-->
+              
+                <div class="outline">
+                  <div class="moby-card">
+                    <div class="card-header">
+                      <div class="name">
+                        <p class="namep"><strong>Moby</strong></p>
+                      </div>
+                      <div class="health">
+                        <p class="hp"><strong>60 HP</strong></p>
+                      </div>
+                    </div>
+                    <div class="image-div">
+                      <img class="catimage" src="catimages/spacemoby.jpg">
+                    </div>
+                    <div class="footer-flex">
+                      <div class="footer-box">
+                        <p class="fact"><strong>Fun Fact: fearless to a fault</strong></p>
+                      </div>
+                    </div>
+                      <hr>
+                    <div class="text">
+                      <p><strong>Nature:</strong> Curious</p>
+                      <p><strong>Likes:</strong> Everything</p>
+                      <p><strong>Dislikes:</strong> Nothing</p>
+                    </div>
+                  </div>
+                </div>
+              
+                
+              
+                <!--Maude (card 2)-->
+              
+                <div class="outline">
+                  <div class="maude-card">
+                    <div class="card-header">
+                      <div class="name">
+                        <p class="namep"><strong>Maude</strong></p>
+                      </div>
+                      <div class="health">
+                        <p class="hp"><strong>100 HP</strong></p>
+                      </div>
+                    </div>
+                    <div class="image-div">
+                      <img class="catimage" src="catimages/maudebruh.jpg">
+                    </div>
+                    <div class="footer-flex">
+                      <div class="footer-box">
+                        <p class="fact"><strong>Fun Fact: will lie on you</strong></p>
+                      </div>
+                    </div>
+                      <hr>
+                    <div class="text">
+                      <p><strong>Nature:</strong> Assertive</p>
+                      <p><strong>Likes:</strong> Autonomy</p>
+                      <p><strong>Dislikes:</strong> Moby</p>
+                    </div>
+                  </div>
+                </div>
+              
+                <!--Wendel card-->
+              
+                <div class="outline">
+                  <div class="wendel-card">
+                    <div class="card-header">
+                      <div class="name">
+                        <p class="namep"><strong>Wendel</strong></p>
+                      </div>
+                      <div class="health">
+                        <p class="hp"><strong>80 HP</strong></p>
+                      </div>
+                    </div>
+                    <div class="image-div">
+                      <img class="catimage" src="catimages/wendel.JPG">
+                    </div>
+                    <div class="footer-flex">
+                      <div class="footer-box">
+                        <p class="fact"><strong>Fun Fact: purrs when he eats</strong></p>
+                      </div>
+                    </div>
+                      <hr>
+                    <div class="text">
+                      <p><strong>Nature:</strong> Cautious</p>
+                      <p><strong>Likes:</strong> Food</p>
+                      <p><strong>Dislikes:</strong> Conflict, Hunger</p>
+                    </div>
+                  </div>
+                </div>
+              
+                <!--Mona card-->
+              
+                <div class="outline">
+                  <div class="mona-card">
+                    <div class="card-header">
+                      <div class="name">
+                        <p class="namep"><strong>Mona</strong></p>
+                      </div>
+                      <div class="health">
+                        <p class="hp"><strong>40 HP</strong></p>
+                      </div>
+                    </div>
+                    <div class="image-div">
+                      <img class="catimage" src="catimages/Mona.PNG">
+                    </div>
+                    <div class="footer-flex">
+                      <div class="footer-box">
+                        <p class="fact"><strong>Fun Fact: plays with hair ties</strong></p>
+                      </div>
+                    </div>
+                      <hr>
+                    <div class="text">
+                      <p><strong>Nature:</strong> Confused</p>
+                      <p><strong>Likes:</strong> Hiding</p>
+                      <p><strong>Dislikes:</strong> Noise, Keys</p>
+                    </div>
+                  </div>
+                </div>
+              
+              <!--end of flexbox container-->
+                </div> 
+
+             
          
          
          
