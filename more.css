@@ -125,3 +125,12 @@ p {
   max-width: 300px;
   align-items: center;
 }
+@media (max-width: 850px) {
+  .soccer-container,
+  .longboarding-container,
+  .cats-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+}
