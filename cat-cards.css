@@ -84,3 +84,10 @@
   display: flex;
   justify-content: center;
 }
+@media (max-width: 800px) {
+  .big-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 140px;
+  }
+ } 
