@@ -36,7 +36,7 @@ input[type='checkbox'] {
    transition: transform .2s ease-out;
  }
  .collapsible-content .content-inner {
-   background: rgba(250, 224, 66, .2);
+   background: beige;
    border-bottom: 1px solid rgba(250, 224, 66, .45);
 
    border-bottom-left-radius: 7px;
