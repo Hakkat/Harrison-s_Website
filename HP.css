@@ -232,7 +232,7 @@ p {
   justify-content: space-around;
   align-items: center;
 }
-@media (max-width: 1170px) {
+@media (max-width: 1240px) {
   .section1,
   .section2 {
     display: grid;
