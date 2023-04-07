@@ -80,6 +80,7 @@ p {
 .floating-text-1 {
   position: absolute;
   top: -50px;
+  left: 30px;
   font-size: 40px;
   font-weight: 100;
   overflow: hidden;
@@ -118,6 +119,7 @@ p {
 .floating-text-2 {
   position: absolute;
   top: 0;
+  left: 120px;
   font-size: 40px;
   font-weight: 100;
   overflow: hidden;
@@ -131,6 +133,7 @@ p {
     blink-caret .75s step-end infinite;
 }
 .section1 {
+  margin-top: 30px;
   opacity: 0;
   display: flex;
   justify-content: space-around;
