@@ -140,6 +140,9 @@ p {
 .sec2head {
   font-size: 26px;
 }
+.title {
+  font-size: 20px;
+}
 .webdev-container {
   display: flex;
   flex-direction: column;
