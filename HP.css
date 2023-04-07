@@ -239,6 +239,9 @@ p {
     grid-template-columns: 1fr;
     justify-items: center;
   }
+  .header {
+    display: none;
+  }
   body {
    width: 100%; 
   }
