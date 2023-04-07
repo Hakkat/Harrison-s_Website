@@ -79,7 +79,7 @@ p {
 }
 .floating-text-1 {
   position: absolute;
-  top: -70px;
+  top: -50px;
   font-size: 40px;
   font-weight: 100;
   overflow: hidden;
