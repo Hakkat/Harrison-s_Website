@@ -237,12 +237,7 @@ p {
   .section2 {
     display: grid;
     grid-template-columns: 1fr;
+    grid-gap: 50px;
     justify-items: center;
-  }
-  .header {
-    display: none;
-  }
-  body {
-   width: 100%; 
   }
 }
