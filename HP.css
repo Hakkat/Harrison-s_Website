@@ -56,12 +56,12 @@ p {
 .stringlight1-container {
   position: absolute;
   left: 0px;
-  bottom: -30px;
+  bottom: -26px;
 }
 .stringlight2-container {
   position: absolute;
   right: 0px;
-  bottom: -30px;
+  bottom: -26px;
 }
 .image-of-me-container {
   display: flex;
