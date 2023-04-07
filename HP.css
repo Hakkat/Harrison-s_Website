@@ -232,12 +232,75 @@ p {
   justify-content: space-around;
   align-items: center;
 }
-@media (max-width: 800px) {
+@media (max-width: 1170px) {
   .section1,
   .section2 {
     display: grid;
     grid-template-columns: 1fr;
     grid-gap: 50px;
     justify-items: center;
+  }
+  .section1 {
+    margin-top: 60px;
+  }
+  .image-of-me-container {
+    margin-right: 240px;
+  }
+  .bio1-container {
+    margin-left: 16px;
+  }
+  .bio1 {
+    font-size: 40px;
+  }
+  .header {
+    margin-bottom: 20px;
+  }
+  .welcome {
+    font-size: 40px;
+  }
+  .sleepycat,
+  .stringlight1,
+  .stringlight2 {
+    width: 100px;
+  }
+  .stringlight1-container,
+  .stringlight2-container {
+    bottom: -44px;
+  }
+  .image-of-me {
+    width: 500px;
+  }
+  .web-image,
+  .writing-image,
+  .hobbies-image {
+  width: 300px;
+  }
+  .web-image:hover,
+  .writing-image:hover,
+  .hobbies-image:hover {
+  width: 400px;
+  }
+  .web-image-container .tooltip,
+  .writing-image-container .tooltip,
+  .hobbies-image-container .tooltip {
+    font-size: 40px;
+  }
+  .sec2head {
+    font-size: 40px;
+  }
+  .section2pre p {
+    font-size: 60px;
+  }
+  .section-2-description {
+    width: 900px;
+    text-align: center;
+  }
+  .title {
+    font-size: 100px;
+    text-align: center;
+    width: 1000px;
+  }
+  .section3 p {
+    font-size: 30px;
   }
 }
