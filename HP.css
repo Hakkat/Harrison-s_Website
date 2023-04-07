@@ -253,7 +253,7 @@ p {
     font-size: 40px;
   }
   .header {
-    display: none;
+    margin-bottom: 20px;
   }
   .welcome {
     font-size: 40px;
