@@ -144,6 +144,10 @@ p {
   font-size: 20px;
   text-align: center;
 }
+.section-2-description {
+  text-align: center;
+  width: 300px;
+}
 .webdev-container {
   display: flex;
   flex-direction: column;
