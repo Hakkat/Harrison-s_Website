@@ -240,4 +240,13 @@ p {
     grid-gap: 50px;
     justify-items: center;
   }
+  .section1 {
+    margin-top: 60px;
+  }
+  .image-of-me-container {
+    margin-right: 36px;
+  }
+  .bio1-container {
+    margin-left: 16px;
+  }
 }
