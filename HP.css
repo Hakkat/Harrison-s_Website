@@ -311,4 +311,7 @@ p {
   .bio1-container {
     margin-left: 20px;
   }
+  .floating-text-2 {
+    top: -10px;
+  }
 }
