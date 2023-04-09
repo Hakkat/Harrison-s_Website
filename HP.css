@@ -129,8 +129,17 @@ p {
   letter-spacing: 2px;
   max-width: 180px;
   animation:
-    typing 3.5s steps(40, end),
-    blink-caret .75s step-end infinite;
+    typing2 3.5s steps(40, end) 1.5s,
+    blink-caret .75s step-end infinite,
+    delay 0s linear 1.5s forwards;
+}
+@keyframes typing2 {
+  from {width: 0}
+  to {width: 100%}
+}
+@keyframes delay {
+  from {opacity: 0;}
+  to {opacity: 1;}
 }
 .section1 {
   margin-top: 30px;
