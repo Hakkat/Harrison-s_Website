@@ -128,6 +128,7 @@ p {
   margin: 0 auto;
   letter-spacing: 2px;
   max-width: 180px;
+  opacity: 0;
   animation:
     typing2 3.5s steps(40, end) 1.5s,
     blink-caret .75s step-end infinite,
