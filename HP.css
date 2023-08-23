@@ -118,7 +118,7 @@ p {
 }
 .floating-text-2 {
   position: absolute;
-  top: 0;
+  top: -10px;
   left: 120px;
   font-size: 40px;
   font-weight: 100;
